@@ -1,0 +1,8 @@
+collected_at,title,company,location,url,description,requirements
+2026-09-01,QA Automation Engineer,Example Systems,Toronto,https://example.com/jobs/1,Develop automated tests,Python Selenium REST API Git CI/CD
+2026-09-02,Backend Developer,Sample Technologies,Vancouver,https://example.com/jobs/2,Develop backend services,Python FastAPI PostgreSQL Docker AWS
+2026-09-03,SDET,Demo Software,Remote,https://example.com/jobs/3,Build testing frameworks,Java Playwright API Testing Jenkins
+2026-10-01,QA Automation Engineer,Northstar Quality,Ottawa,https://example.com/jobs/4,Develop web test automation,Python Playwright REST API Git GitHub Actions CI/CD
+2026-10-02,Backend Developer,Maple Cloud,Toronto,https://example.com/jobs/5,Develop cloud APIs,Python FastAPI PostgreSQL Docker AWS Redis
+2026-10-03,SDET,Northern Software,Vancouver,https://example.com/jobs/6,Develop test frameworks,Java Selenium API Testing Jenkins Docker
+2026-10-04,Software QA Engineer,Aviation Systems,Calgary,https://example.com/jobs/7,Test aviation software,Python pytest REST API Git

@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-requirements-analyzer"
+version = "0.1.0"
+description = "Analyze technology trends in job requirements"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.1,<10",
+    "ruff>=0.14,<1",
+]
+
+[tool.setuptools]
+py-modules = [
+    "database",
+    "job_classifier",
+    "keyword_extractor",
+    "logging_config",
+    "main",
+    "report_generator",
+]
+
+[tool.pytest]
+minversion = "9.0"
+testpaths = ["tests"]
+addopts = ["-ra"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+extend-exclude = [
+    ".venv",
+    "data",
+    "logs",
+    "reports",
+]
+
+[tool.ruff.lint]
+select = [
+    "E4",
+    "E7",
+    "E9",
+    "F",
+    "I",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
